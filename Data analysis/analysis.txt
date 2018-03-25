@@ -1,0 +1,32 @@
+#import packages
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+#read dataset
+transport = pd.read_csv('transport1.csv')
+transport.head()
+transport[transport['Stops-Trips'] == transport['Stops-Trips'].max()] #busiest stop
+transport[transport['Routes-trips'] == transport['Routes-trips'].min()] #least busy line
+transport[transport['Stops-Trips'] == transport['Stops-Trips'].max()]['Days'] #Busiest day
+
+mon = transport[transport['Days'] == 'Monday']['Stops-Trips'].mean()
+tues = transport[transport['Days'] == 'Tuesday']['Stops-Trips'].mean()
+wed = transport[transport['Days'] == 'Wednesday']['Stops-Trips'].mean()
+thu = transport[transport['Days'] == 'Thursday']['Stops-Trips'].mean()
+fri = transport[transport['Days'] == 'Friday']['Stops-Trips'].mean()
+sat = transport[transport['Days'] == 'Saturday']['Stops-Trips'].mean()
+sun = transport[transport['Days'] == 'Sunday']['Stops-Trips'].mean()
+
+days = [mon,tues,wed,thu,fri,sat,sun]
+week = transport['Days'].head(7)
+labels = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
+plt.pie(days, labels=labels,startangle=90,shadow= True,explode=(0,0,0,0.1,0.1,0.1,0),autopct='%.0f%%')
+plt.title('Pie Plot') #plot days and corresponding average trips on pie plot
+plt.scatter(week,days)
+
+trips = transport['Stops-Trips'].head(7)
+days = transport['Days'].head(7)
+plt.scatter(days,trips) #plot days and corresponding average trips on pie plot

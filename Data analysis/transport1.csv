@@ -1,0 +1,210 @@
+Stops,Stops-Trips,Routes,Routes-trips,Days,Hours
+Rwahama,256,Kimironko-Nyabugogo,6000,Monday,12:00 AM
+Stade Amahoro,8000,Kimironko-Town,32000,Tuesday,1:00 AM
+Chez Lando,8000,Kimironko-Gikondo,32000,Wednesday,2:00 AM
+RDB Gishushu,8000,Kimironko-Remera,32000,Thursday,3:00 AM
+Convetion Center,8000,Kimironko-Kicukiro,16000,Friday,4:00 AM
+King Faisal Hospital,8000,Remera-Nyagubugog,32000,Saturday,5:00 AM
+MINAGRI,16000,Remera-Town,32000,Sunday,6:00 AM
+Kacyiru Bus Station,16000,Remera-Kicukiro,32000,Monday,7:00 AM
+Police HQ,16000,Remera-Kabeza,64000,Tuesday,8:00 AM
+Kinamba,32000,Remera-Kimironko,64000,Wednesday,9:00 AM
+Nyabugogo Bus Station,1000,Kimironko-Town,3000,Thursday,10:00 AM
+NIDA Kimihurura,512,Kimironko-Gikondo,3500,Friday,11:00 AM
+Kimicanga,2000,Kimironko-Remera,8000,Saturday,12:00 PM
+Payage,4000,Kimironko-Kicukiro,16000,Sunday,1:00 PM
+Rubangura,64,Remera-Nyagubugog,64,Monday,2:00 PM
+Town Bus station,512,Remera-Town,16000,Tuesday,3:00 PM
+Sonatube,524,Remera-Kicukiro,2000,Wednesday,4:00 PM
+St Joseph,512,Remera-Kabeza,5000,Thursday,5:00 PM
+Kicukiro Centre,1000,Remera-Kimironko,2000,Friday,6:00 PM
+Rwandex,5000,Kimironko-Town,5000,Saturday,7:00 PM
+Prince House,1500,Kimironko-Gikondo,6300,Sunday,8:00 PM
+Kisimenti,3100,Kimironko-Remera,6200,Monday,9:00 PM
+Kigali International Airport,2300,Kimironko-Kicukiro,6200,Tuesday,10:00 PM
+Kanombe Bus Terminal,3100,Remera-Nyagubugog,6200,Wednesday,11:00 PM
+Kumucyo,128,Remera-Town,6000,Thursday,12:00 AM
+Giporoso Bus Station,512,Remera-Kicukiro,2000,Friday,1:00 AM
+Kimironko Bus Station,256,Remera-Kabeza,6000,Saturday,2:00 AM
+Rwahama,256,Remera-Kimironko,3000,Sunday,3:00 AM
+Stade Amahoro,512,Kimironko-Town,5000,Monday,4:00 AM
+Chez Lando,256,Kimironko-Gikondo,5000,Tuesday,5:00 AM
+RDB Gishushu,1310,Kimironko-Remera,2620,Wednesday,6:00 AM
+Convetion Center,1310,Kimironko-Kicukiro,2620,Thursday,7:00 AM
+King Faisal Hospital,2620,Remera-Nyagubugog,10480,Friday,8:00 AM
+MINAGRI,2620,Remera-Town,10480,Saturday,9:00 AM
+Kacyiru Bus Station,5240,Remera-Kicukiro,20970,Sunday,10:00 AM
+Police HQ,5240,Remera-Kabeza,20970,Monday,11:00 AM
+Kinamba,500,Remera-Kimironko,2000,Tuesday,12:00 PM
+Nyabugogo Bus Station,1000,Kimironko-Town,4000,Wednesday,1:00 PM
+NIDA Kimihurura,2000,Kimironko-Gikondo,8000,Thursday,2:00 PM
+Kimicanga,1000,Kimironko-Remera,4000,Friday,3:00 PM
+Payage,1000,Kimironko-Kicukiro,8000,Saturday,4:00 PM
+Rubangura,2000,Remera-Nyagubugog,16000,Sunday,5:00 PM
+Town Bus station,2000,Remera-Town,16000,Monday,6:00 PM
+Sonatube,2000,Remera-Kicukiro,16000,Tuesday,7:00 PM
+St Joseph,1000,Remera-Kabeza,12000,Wednesday,8:00 PM
+Kicukiro Centre,1000,Remera-Kimironko,8000,Thursday,9:00 PM
+Rwandex,512,Kimironko-Town,512,Friday,10:00 PM
+Prince House,1000,Kimironko-Gikondo,5000,Saturday,11:00 PM
+Kisimenti,512,Kimironko-Remera,8000,Sunday,12:00 AM
+Kigali International Airport,512,Kimironko-Kicukiro,8000,Monday,1:00 AM
+Kanombe Bus Terminal,384,Remera-Nyagubugog,8000,Tuesday,2:00 AM
+Kumucyo,256,Remera-Town,2000,Wednesday,3:00 AM
+Giporoso Bus Station,1000,Remera-Kicukiro,16000,Thursday,4:00 AM
+Kimironko Bus Station,1000,Remera-Kabeza,8000,Friday,5:00 AM
+Rwahama,1000,Remera-Kimironko,4000,Saturday,6:00 AM
+Stade Amahoro,1000,Kimironko-Town,12000,Sunday,7:00 AM
+Chez Lando,1000,Kimironko-Gikondo,8000,Monday,8:00 AM
+RDB Gishushu,256,Kimironko-Remera,8000,Tuesday,9:00 AM
+Convetion Center,256,Kimironko-Kicukiro,8000,Wednesday,10:00 AM
+King Faisal Hospital,256,Remera-Nyagubugog,8000,Thursday,11:00 AM
+MINAGRI,256,Remera-Town,8000,Friday,12:00 PM
+Kacyiru Bus Station,256,Remera-Kicukiro,8000,Saturday,1:00 PM
+Police HQ,512,Remera-Kabeza,1000,Sunday,2:00 PM
+Kinamba,2000,Remera-Kimironko,8000,Monday,3:00 PM
+Nyabugogo Bus Station,2000,Kimironko-Town,16000,Tuesday,4:00 PM
+NIDA Kimihurura,2000,Kimironko-Gikondo,16000,Wednesday,5:00 PM
+Kimicanga,256,Kimironko-Remera,1000,Thursday,6:00 PM
+Payage,256,Kimironko-Kicukiro,2000,Friday,7:00 PM
+Rubangura,1000,Remera-Nyagubugog,4000,Saturday,8:00 PM
+Town Bus station,2000,Remera-Town,4000,Sunday,9:00 PM
+Sonatube,2000,Remera-Kicukiro,8000,Monday,10:00 PM
+St Joseph,3000,Remera-Kabeza,8000,Tuesday,11:00 PM
+Kicukiro Centre,256,Remera-Kimironko,2000,Wednesday,12:00 AM
+Rwandex,768,Kimironko-Town,3000,Thursday,1:00 AM
+Prince House,768,Kimironko-Gikondo,3000,Friday,2:00 AM
+Kisimenti,768,Kimironko-Remera,12000,Saturday,3:00 AM
+Kigali International Airport,768,Kimironko-Kicukiro,4500,Sunday,4:00 AM
+Kanombe Bus Terminal,384,Remera-Nyagubugog,12000,Monday,5:00 AM
+Kumucyo,192,Remera-Town,768,Tuesday,6:00 AM
+Giporoso Bus Station,768,Remera-Kicukiro,12000,Wednesday,7:00 AM
+Kimironko Bus Station,1000,Remera-Kabeza,3000,Thursday,8:00 AM
+Rwahama,1000,Remera-Kimironko,4000,Friday,9:00 AM
+Stade Amahoro,1000,Kimironko-Town,16000,Saturday,10:00 AM
+Chez Lando,1000,Kimironko-Gikondo,2000,Sunday,11:00 AM
+RDB Gishushu,1000,Kimironko-Remera,4000,Monday,12:00 PM
+Convetion Center,2000,Kimironko-Kicukiro,4000,Tuesday,1:00 PM
+King Faisal Hospital,2000,Remera-Nyagubugog,4000,Wednesday,2:00 PM
+MINAGRI,2000,Remera-Town,4000,Thursday,3:00 PM
+Kacyiru Bus Station,2000,Remera-Kicukiro,32000,Friday,4:00 PM
+Police HQ,2000,Remera-Kabeza,8000,Saturday,5:00 PM
+Kinamba,2000,Remera-Kimironko,32000,Sunday,6:00 PM
+Nyabugogo Bus Station,2000,Kimironko-Town,32000,Monday,7:00 PM
+NIDA Kimihurura,2000,Kimironko-Gikondo,4000,Tuesday,8:00 PM
+Kimicanga,4000,Kimironko-Remera,16000,Wednesday,9:00 PM
+Payage,4000,Kimironko-Kicukiro,24000,Thursday,10:00 PM
+Rubangura,16000,Remera-Nyagubugog,32000,Friday,11:00 PM
+Town Bus station,16000,Remera-Town,32000,Saturday,12:00 AM
+Sonatube,8000,Remera-Kicukiro,32000,Sunday,1:00 AM
+St Joseph,8000,Remera-Kabeza,16000,Monday,2:00 AM
+Kicukiro Centre,96,Remera-Kimironko,512,Tuesday,3:00 AM
+Rwandex,1000,Kimironko-Town,2000,Wednesday,4:00 AM
+Prince House,512,Kimironko-Gikondo,6000,Thursday,5:00 AM
+Kisimenti,512,Kimironko-Remera,1500,Friday,6:00 AM
+Kigali International Airport,768,Kimironko-Kicukiro,2000,Saturday,7:00 AM
+Kanombe Bus Terminal,768,Remera-Nyagubugog,2000,Sunday,8:00 AM
+Kumucyo,2000,Remera-Town,4000,Monday,9:00 AM
+Giporoso Bus Station,4000,Remera-Kicukiro,8000,Tuesday,10:00 AM
+Kimironko Bus Station,1000,Remera-Kabeza,1000,Wednesday,11:00 AM
+Rwahama,512,Remera-Kimironko,1000,Thursday,12:00 PM
+Stade Amahoro,1000,Kimironko-Town,4000,Friday,1:00 PM
+Chez Lando,1000,Kimironko-Gikondo,4000,Saturday,2:00 PM
+RDB Gishushu,2000,Kimironko-Remera,4000,Sunday,3:00 PM
+Convetion Center,2000,Kimironko-Kicukiro,4000,Monday,4:00 PM
+King Faisal Hospital,2000,Remera-Nyagubugog,4000,Tuesday,5:00 PM
+MINAGRI,2000,Remera-Town,8000,Wednesday,6:00 PM
+Kacyiru Bus Station,2000,Remera-Kicukiro,16000,Thursday,7:00 PM
+Police HQ,2000,Remera-Kabeza,16000,Friday,8:00 PM
+Kinamba,1000,Remera-Kimironko,4000,Saturday,9:00 PM
+Nyabugogo Bus Station,2000,Kimironko-Town,12000,Sunday,10:00 PM
+NIDA Kimihurura,2000,Kimironko-Gikondo,12000,Monday,11:00 PM
+Kimicanga,4000,Kimironko-Remera,16000,Tuesday,12:00 AM
+Payage,4000,Kimironko-Kicukiro,16000,Wednesday,1:00 AM
+Rubangura,768,Remera-Nyagubugog,1000,Thursday,2:00 AM
+Town Bus station,768,Remera-Town,2000,Friday,3:00 AM
+Sonatube,768,Remera-Kicukiro,2000,Saturday,4:00 AM
+St Joseph,2000,Remera-Kabeza,4000,Sunday,5:00 AM
+Kicukiro Centre,2000,Remera-Kimironko,8000,Monday,6:00 AM
+Rwandex,2000,Kimironko-Town,8000,Tuesday,7:00 AM
+Prince House,2000,Kimironko-Gikondo,16000,Wednesday,8:00 AM
+Kisimenti,2000,Kimironko-Remera,16000,Thursday,9:00 AM
+Kigali International Airport,8000,Kimironko-Kicukiro,16000,Friday,10:00 AM
+Kanombe Bus Terminal,1000,Remera-Nyagubugog,8000,Saturday,11:00 AM
+Kumucyo,1000,Remera-Town,8000,Sunday,12:00 PM
+Giporoso Bus Station,1000,Remera-Kicukiro,8000,Monday,1:00 PM
+Kimironko Bus Station,2000,Remera-Kabeza,16000,Tuesday,2:00 PM
+Rwahama,2000,Remera-Kimironko,16000,Wednesday,3:00 PM
+Stade Amahoro,2000,Kimironko-Town,16000,Thursday,4:00 PM
+Chez Lando,512,Kimironko-Gikondo,4000,Friday,5:00 PM
+RDB Gishushu,2000,Kimironko-Remera,8000,Saturday,6:00 PM
+Convetion Center,2000,Kimironko-Kicukiro,4000,Sunday,7:00 PM
+King Faisal Hospital,2000,Remera-Nyagubugog,8000,Monday,8:00 PM
+MINAGRI,2000,Remera-Town,8000,Tuesday,9:00 PM
+Kacyiru Bus Station,2000,Remera-Kicukiro,8000,Wednesday,10:00 PM
+Police HQ,4000,Remera-Kabeza,16000,Thursday,11:00 PM
+Kinamba,4000,Remera-Kimironko,16000,Friday,12:00 AM
+Nyabugogo Bus Station,2000,Kimironko-Town,16000,Saturday,1:00 AM
+NIDA Kimihurura,4000,Kimironko-Gikondo,16000,Sunday,2:00 AM
+Kimicanga,4000,Kimironko-Remera,16000,Monday,3:00 AM
+Payage,4000,Kimironko-Kicukiro,16000,Tuesday,4:00 AM
+Rubangura,2000,Remera-Nyagubugog,8000,Wednesday,5:00 AM
+Town Bus station,8000,Remera-Town,16000,Thursday,6:00 AM
+Sonatube,8000,Remera-Kicukiro,32000,Friday,7:00 AM
+St Joseph,8000,Remera-Kabeza,32000,Saturday,8:00 AM
+Kicukiro Centre,16000,Remera-Kimironko,32000,Sunday,9:00 AM
+Rwandex,4000,Kimironko-Town,24000,Monday,10:00 AM
+Prince House,8000,Kimironko-Gikondo,32000,Tuesday,11:00 AM
+Kisimenti,16000,Kimironko-Remera,32000,Wednesday,12:00 PM
+Kigali International Airport,1000,Kimironko-Kicukiro,1000,Thursday,1:00 PM
+Kanombe Bus Terminal,1000,Remera-Nyagubugog,2000,Friday,2:00 PM
+Kumucyo,1000,Remera-Town,4000,Saturday,3:00 PM
+Giporoso Bus Station,2000,Remera-Kicukiro,6000,Sunday,4:00 PM
+Kimironko Bus Station,2000,Remera-Kabeza,8000,Monday,5:00 PM
+Rwahama,4000,Remera-Kimironko,8000,Tuesday,6:00 PM
+Stade Amahoro,4000,Kimironko-Town,12000,Wednesday,7:00 PM
+Chez Lando,4000,Kimironko-Gikondo,16000,Thursday,8:00 PM
+RDB Gishushu,4000,Kimironko-Remera,8000,Friday,9:00 PM
+Convetion Center,4000,Kimironko-Kicukiro,8000,Saturday,10:00 PM
+King Faisal Hospital,8000,Remera-Nyagubugog,16000,Sunday,11:00 PM
+MINAGRI,8000,Remera-Town,24000,Monday,12:00 AM
+Kacyiru Bus Station,4000,Remera-Kicukiro,16000,Tuesday,1:00 AM
+Police HQ,1000,Remera-Kabeza,2000,Wednesday,2:00 AM
+Kinamba,1000,Remera-Kimironko,4000,Thursday,3:00 AM
+Nyabugogo Bus Station,2000,Kimironko-Town,8000,Friday,4:00 AM
+NIDA Kimihurura,512,Kimironko-Gikondo,4000,Saturday,5:00 AM
+Kimicanga,512,Kimironko-Remera,4000,Sunday,6:00 AM
+Payage,1000,Kimironko-Kicukiro,16000,Monday,7:00 AM
+Rubangura,512,Remera-Nyagubugog,4000,Tuesday,8:00 AM
+Town Bus station,512,Remera-Town,2000,Wednesday,9:00 AM
+Sonatube,1000,Remera-Kicukiro,4000,Thursday,10:00 AM
+St Joseph,1000,Remera-Kabeza,8000,Friday,11:00 AM
+Kicukiro Centre,2000,Remera-Kimironko,8000,Saturday,12:00 PM
+Rwandex,512,Kimironko-Town,1000,Sunday,1:00 PM
+Prince House,512,Kimironko-Gikondo,2000,Monday,2:00 PM
+Kisimenti,2000,Kimironko-Remera,4000,Tuesday,3:00 PM
+Kigali International Airport,2000,Kimironko-Kicukiro,6000,Wednesday,4:00 PM
+Kanombe Bus Terminal,2000,Remera-Nyagubugog,8000,Thursday,5:00 PM
+Kumucyo,4000,Remera-Town,16000,Friday,6:00 PM
+Giporoso Bus Station,4000,Remera-Kicukiro,12000,Saturday,7:00 PM
+Kimironko Bus Station,4000,Remera-Kabeza,12000,Sunday,8:00 PM
+Rwahama,8000,Remera-Kimironko,16000,Monday,9:00 PM
+Stade Amahoro,8000,Kimironko-Town,24000,Tuesday,10:00 PM
+Chez Lando,8000,Kimironko-Gikondo,32000,Wednesday,11:00 PM
+RDB Gishushu,8000,Kimironko-Remera,32000,Thursday,12:00 AM
+Convetion Center,2000,Kimironko-Kicukiro,8000,Friday,1:00 AM
+King Faisal Hospital,2000,Remera-Nyagubugog,32000,Saturday,2:00 AM
+MINAGRI,2000,Remera-Town,32000,Sunday,3:00 AM
+Kacyiru Bus Station,2000,Remera-Kicukiro,32000,Monday,4:00 AM
+Police HQ,4000,Remera-Kabeza,32000,Tuesday,5:00 AM
+Kinamba,8000,Remera-Kimironko,64000,Wednesday,6:00 AM
+Nyabugogo Bus Station,8000,Kimironko-Town,64000,Thursday,7:00 AM
+NIDA Kimihurura,262,Kimironko-Gikondo,4000,Friday,8:00 AM
+Kimicanga,512,Kimironko-Remera,4000,Saturday,9:00 AM
+Payage,262,Kimironko-Kicukiro,4000,Sunday,10:00 AM
+Rubangura,512,Remera-Nyagubugog,4000,Monday,11:00 AM
+Town Bus station,1000,Remera-Town,8000,Tuesday,12:00 PM
+Sonatube,1000,Remera-Kicukiro,8000,Wednesday,1:00 PM
+St Joseph,2000,Remera-Kabeza,8000,Thursday,2:00 PM
+Kicukiro Centre,512,Remera-Kimironko,8000,Friday,3:00 PM
+Rwandex,1000,Kimironko-Town,4000,Saturday,4:00 PM

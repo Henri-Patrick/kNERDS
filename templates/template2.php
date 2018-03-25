@@ -38,90 +38,94 @@ Developer={
         margin: 0;
         padding: 0;
       }
-      /* Place the navbar at the bottom of the page, and make it stick */
-        .navbar {
-            background-color: #004d24;
-            overflow: hidden;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
 
-        /* Style the links inside the navigation bar */
-        .navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        /* Change the color of links on hover */
-        .navbar a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        /* Add a green background color to the active link */
-        .navbar a.active {
-            background-color: #4CAF50;
-            color: white;
-        }
-
-        /* Hide the link that should open and close the navbar on small screens */
-        .navbar .icon {
-            display: none;
-        }
-        /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */
-        @media screen and (max-width: 600px) {
-        .navbar a:not(:first-child) {display: none;}
-        .navbar a.icon {
-            float: right;
-            display: block;
-        }
-        }
-
-        /* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
-        @media screen and (max-width: 600px) {
-        .navbar.responsive a.icon {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-        }
-        .navbar.responsive a {
-            float: none;
-            display: block;
-            text-align: left;
-        }
-        }
+      
+      
     </style>
   </head>
   
   <body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
+    <a style="color:white;font:bold;" class="navbar-brand" data-toggle="modal" data-target="#myModal"><h3>K_CONNECT</h3></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <button type="button" class="btn btn-info btn-sm" ><i class="fa fa-map-marker fa-2x"></i>CURRENT LOCATION</button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myStops"><i class="fa fa-map fa-2x"></i>BUS STOPS</button>
+        </li>
+        <li class="nav-item">
+        <button type="button" class="btn btn-info btn-sm"><i class="fa fa-bus fa-2x"></i>JOURNEYS</button>
+        </li>    
+      </ul>
+    </div>  
+  </nav>
         <?= $content;?>
-        <div class="navbar">
-            <div class="navbar" id="myNavbar">
-                <a href="#home">Home</a>
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-            </div>
-        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script>
         // Note: This example requires that you consent to location sharing when
       // prompted by your browser. If you see the error "The Geolocation service
       // failed.", it means you probably did not give permission for the browser to
       // locate you.
 
+      
+
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: -34.397, lng: 150.644},
-          zoom: 6
+          zoom: 13
         });
         var infoWindow = new google.maps.InfoWindow({map: map});
+        
+
+        //Marking the bus stops
+        for(n=0; n<stops.length; n++){
+          console.log(stops[n])
+        	stoplocation = stops[n]['geometry']["coordinates"];
+        	stopLatLong = {lat: stoplocation[1], lng: stoplocation[0]}
+        	var marker = new google.maps.Marker({
+	          position: stopLatLong,
+	          map: map,
+            mapTypeId: 'satellite',        
+            icon: 'assets/icon2.png',
+            title: stops[n]['name']
+	        });
+
+          //open onclick
+        google.maps.event.addListener(marker, 'click', function() {
+
+
+           
+            // begin of ajaxrequest
+            // $(document).ready(function(){
+
+            //     var stopLatLong;
+
+            //     $.post("sendRequest.php",
+            //     {
+            //       coord : stopLatLong;
+            //     },
+            //     function(data,status){
+            //         alert("Data: " + data + "\nStatus: " + status);
+            //     });
+            
+            // });
+
+
+
+            
+          });
+
+          
+        }
+
+        
+
 
         // Try HTML5 geolocation.
         if (navigator.geolocation) {
@@ -130,9 +134,8 @@ Developer={
               lat: position.coords.latitude,
               lng: position.coords.longitude
             };
-
             infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
+            infoWindow.setContent('You Location.');
             map.setCenter(pos);
           }, function() {
             handleLocationError(true, infoWindow, map.getCenter());
@@ -153,9 +156,35 @@ Developer={
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_6Qfrt82XuK2Ac4qcmmII9QvmqCp5CAw&callback=initMap">
     </script>
+    <script type="text/javascript">
+    	var stops = <?php echo json_encode($stops); ?>
+
+    	var x = document.getElementById("demo");
+		$(document).ready(function(){
+			getLocation();
+
+			navigator.geolocation.getCurrentPosition(function(position){
+				console.log(position)
+			}, function(err){
+				alert("error");
+				console.log(err)
+			})
+		})
+
+		function getLocation() {
+		    if (navigator.geolocation) {
+		        navigator.geolocation.getCurrentPosition(showPosition);
+		    } else {
+		        x.innerHTML = "Geolocation is not supported by this browser.";
+		    }
+		}
+		function showPosition(position) {
+			alert("Show position")
+		    console.log(x);
+		}
+</script>
     <script src="bottom-nav.js"></script>
     <!-- Optional JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
